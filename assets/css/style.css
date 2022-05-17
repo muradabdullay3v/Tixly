@@ -176,7 +176,7 @@ body {
     width: 70%;
     display: flex;
     justify-content: space-around;
-    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
 }
 
 .explore_card{
@@ -295,7 +295,7 @@ body {
 }
 
 .gallery_card img{
-    width:100%
+    width:300px;
 }
 
 #gallery .gallery_button{
@@ -411,5 +411,15 @@ footer a{
     }
     .footer_left{
         width: 100%;
+    }
+}
+
+@media screen and (max-width:573px) {
+    .footer_rigth table input{
+        width: 200px;
+        height: 50px;
+    }
+    .text{
+        width: 250px;
     }
 }
